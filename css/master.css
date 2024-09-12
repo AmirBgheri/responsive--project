@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: abel;
+    src: url("../font/Abel-Regular.ttf") format("opentype");
+}
+
+/* main{
+    >.slider{
+        animation: 12s infinite linear;
+        >figure{
+            &:nth-of-type(1){
+                animation-name: sliders1;
+            }
+
+            &:nth-of-type(2){
+                animation-name: sliders2;
+            }
+
+            &:nth-of-type(3){
+                animation-name: sliders3;
+            }
+        }
+    }
+} 
+@keyframes sliders1{
+    0%{
+        opacity: 1;
+    }
+    32%{
+        opacity: 1;
+    }
+    33%{
+        opacity:0;
+    }
+    99%{
+        opacity: 0;
+    }
+    99.9%{
+        opacity: 1;
+    }
+}
+@keyframes sliders2{
+    0%{
+        opacity: 0;
+    }
+    32%{
+        opacity: 0;
+    }
+    33%{
+        opacity:1;
+    }
+    65%{
+        opacity: 1;
+    }
+    66%{
+        opacity: 0;
+    }
+    99.9%{
+        opacity: 0;
+    }
+}
+
+@keyframes sliders3{
+    0%{
+        opacity: 0;
+    }
+    32%{
+        opacity: 0;
+    }
+    65%{
+        opacity:0;
+    }
+    66%{
+        opacity: 1;
+    }
+    99%{
+        opacity: 1;
+    }
+    99.9%{
+        opacity: 0;
+    }
+ } */
